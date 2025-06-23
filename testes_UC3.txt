@@ -1,0 +1,22 @@
+Identificador: TST - 001
+
+Titulo: Acesso Login Trello
+
+Objetivo do teste: Tentar acessar o Trello com um e-mail já cadastrado mas sem a senha, testar todos os caminhos de recuperação e verificar possíveis bloqueios e vulnerabilidade.
+
+Funcionalidade testada: Login e Recuperação de senha
+
+Passos para execução:
+
+1 - Ter um e-mail com conta;
+2 - testar 10 logins com a senha incorreta para ver se irá bloquear;
+3 - testar segurança da senha
+4 - testar caminhos para recuperação da senha
+
+Resultaod esperado: Não encontrar vulnerabilidades no site
+
+Resultado obtido:
+
+Status: 
+
+Observações:
