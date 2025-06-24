@@ -1,0 +1,27 @@
+Identificador: TST - 004
+
+Titulo: Criação de conta ASANA
+
+Objetivo do teste: Criar uma conta com e-mail e dados fake
+
+Funcionalidade testada: criação de usuário
+
+Passos para execução:
+
+1 - Criar um e-mail atraves do gerador de e-mail (www.invertertexto.com)
+2 - Gerado conta fake
+3 - conta criada com sucesso
+
+
+Resultado esperado: não permitir criação de conta fake
+
+Resultado obtido: conta criada com sucesso
+
+Status: reprovado
+
+Observações: 
+
+Realizado testes e anexado imagens dos passos.
+
+
+
