@@ -10,13 +10,62 @@ Passos para execução:
 
 1 - Ter um e-mail com conta;
 2 - testar 10 logins com a senha incorreta para ver se irá bloquear;
-3 - testar segurança da senha
-4 - testar caminhos para recuperação da senha
+3 - testar caminhos para recuperação da senha
+4 - testar segurança da senha
+
 
 Resultaod esperado: Não encontrar vulnerabilidades no site
 
-Resultado obtido:
+Resultado obtido: Segurança em questão de recuperação de senha ok, deixa a desejar a segurança referente a criação da senha, não possuí um padrão de senha seguro a ser seguido.
 
-Status: 
+Status: Aprovado
 
-Observações:
+Observações: 
+
+TESTANDO 10 TENTATIVAS DE LOGIN:
+
+1 tentativa - retorno:
+ Endereço de e-mail e/ou senha incorreta. Se você migrou a conta do Trello para uma conta da Atlassian há pouco tempo,
+ use a senha da conta da Atlassian. Outra opção é obter ajuda para entrar.
+
+2 tentativa - retorno:
+ Endereço de e-mail e/ou senha incorreta. Se você migrou a conta do Trello para uma conta da Atlassian há pouco tempo,
+ use a senha da conta da Atlassian. Outra opção é obter ajuda para entrar. 
+
+3 tentativa - retorno:
+ Endereço de e-mail e/ou senha incorreta. Se você migrou a conta do Trello para uma conta da Atlassian há pouco tempo,
+ use a senha da conta da Atlassian. Outra opção é obter ajuda para entrar.  
+
+6 tentativa - retorno:
+Apareceu um recaptcha para flegar
+
+Ocorreram erros ao verificar o reCAPTCHA desta solicitação. Tente de novo. Se o problema persistir, tente usar outro navegador/dispositivo ou entre em contato com o Suporte da Atlassian.
+
+10 tentativa - retorno:
+
+Há pouco tempo, a gente fez alterações na página de login. Se estiver com dificuldade para entrar, redefina a senha.
+
+13 tentativa - retorno:
+
+Não houve bloqueio de login, seguiremos para recuperação de senha.
+
+TESTANDO CAMINHOS PARA RECUPERAÇÃO DE SENHA
+
+1 - utilizando e-mail fajuto para receber a redefinição da senha:
+
+• Solicitado e-mail para o endereço ieda1774@uorak.com retorno msg email enviado para recuperação, aguardando receber e-mail na caixa de entrada
+• Não recebido o e-mail tentado reenviar o link de recuperação para outro endereço de e-mail
+• tentado enviar o link de recuperação para um e-mail real mas não relacionado a conta
+• atualizado e-mail correto link de recuperação recebido em segundos
+
+TESTANDO SEGURANÇA DA SENHA
+
+• Senha exigida de no minímo 8 caracteres. 
+• senha 12345678 muito comum e não aceita.
+• senha com números aleatórios mas sem demais caracteres (letras, ou caracteres especiais) aceita.
+• Após senha alterada e aceita já entra direto no ambiente do usuário.
+
+
+
+
+
