@@ -1,0 +1,28 @@
+Identificador: TST - 003
+
+Titulo: Testando funcionalidade de compartilhar link trello
+
+Objetivo do teste: Tentar compartilhar o trabalho com um e-mail real e um fake
+
+Funcionalidade testada: Compartilhar projeto no trello
+
+Passos para execução:
+
+1 - Criar um e-mail atraves do gerador de e-mail (www.invertertexto.com)
+2 - Compartilhar area de trabalho trello 
+3 - compartilhar com um e-mail real
+
+
+
+Resultaod esperado: Não permitir compartilhamento de dados com e-mail fake
+
+Resultado obtido: Trello permite o compartilhamento com e-mail fake com ou sem conta, e funcionalidade do botão funciona normalmente!
+
+Status: Reprovado
+
+Observações: 
+Em caso de e-mail fake sem acesso ele direciona para criação de um novo usuário.
+Realizado testes e anexado imagens dos passos.
+
+
+
