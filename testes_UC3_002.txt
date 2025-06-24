@@ -1,0 +1,28 @@
+Identificador: TST - 002
+
+Titulo: Conta fake trello
+
+Objetivo do teste: Tentar criar uma conta no trello com um e-mail Fake
+
+Funcionalidade testada: Criação de um usuário FAKE
+
+Passos para execução:
+
+1 - Criar um e-mail atraves do gerador de e-mail (www.invertertexto.com)
+2 - Criar dados para o usuário atraves do 4devs.com.br
+3 - Utilizar dados para criar conta no trello
+
+
+
+Resultaod esperado: Não permitir criação da conta
+
+Resultado obtido: Conta criada com sucesso
+
+Status: Reprovado
+
+Observações: 
+
+Realizado testes e anexado imagens dos passos.
+
+
+
